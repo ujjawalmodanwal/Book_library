@@ -21,13 +21,24 @@
 	float: top;
 }
 
-.readStatus{
-	background-color: #FF0000;
-	height: 38px;
+.notRead{
+	background-color: red;
+	height: 30px;
 	color: white;
-	text-decoration-color: white;
+	font-weight: 30px;
+	padding-top: 8px;
+	font-size: 20px;
 	text-align: center;
-	float: bottom;
+}
+
+.Read{
+	background-color: green;
+	height: 30px;
+	color: white;
+	font-weight: 30px;
+	padding-top: 8px;
+	font-size: 20px;
+	text-align: center;
 }
 
 .bookShell{

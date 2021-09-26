@@ -1,0 +1,41 @@
+#header{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.book_info{
+	text-align: center;
+	width: 200px;
+	height: 230px;
+	border-width: 1px;
+	border-style: solid;
+	padding-top: 5%;
+	font-size: 20px;
+	word-break: break-all;
+	overflow-wrap: break-word;
+	white-space: pre-line;
+	overflow-y: auto;
+	float: top;
+}
+
+.readStatus{
+	background-color: #FF0000;
+	height: 38px;
+	color: white;
+	text-decoration-color: white;
+	text-align: center;
+	float: bottom;
+}
+
+.bookShell{
+	width: 200px;
+	height: 280px;
+	border-width: 1px;
+	border-style: solid;
+	display: inline-block;
+	margin: 5%;
+	
+}

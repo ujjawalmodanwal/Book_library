@@ -52,7 +52,7 @@ function newTab(bookObject, idx){
 	var div= document.createElement('div');
 	div.className = 'book_info';
     div.id = 'i'+idx;
-	document.getElementById(idx).appendChild(div);
+	document.getElementById(idx).insertBefore(div, document.getElementById('read'+idx));
 	var tab = document.getElementById('i'+idx);
 	tab.innerHTML = bookObject.info();
 
